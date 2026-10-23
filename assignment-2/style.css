@@ -4,7 +4,6 @@
     box-sizing:0;
 }
 .outerline{
-    /* text-align: center; */
     border:2px solid black;
     margin:0 350px;
     padding:40px 80px;
