@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0fe;
+    text-align: center;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    color: navy;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#output {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    min-height: 40px;
+}
