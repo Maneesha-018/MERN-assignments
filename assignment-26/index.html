@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Dataset</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Product Dataset</h1>
+
+        <label>Filter by maximum price:</label>
+        <input type="number" id="maxPrice" placeholder="Enter maximum price">
+
+        <button onclick="filterProducts()">Filter Products</button>
+        <button onclick="showAllProducts()">Show All</button>
+
+        <div id="summary"></div>
+        <div id="productList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
