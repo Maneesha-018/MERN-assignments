@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Cleaning Utility</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Text Cleaning Utility</h1>
+
+        <label>Enter Your Text:</label>
+        <textarea id="userText" placeholder="Enter your text here..."></textarea>
+
+        <div class="buttons">
+            <button onclick="cleanText()">Clean Text</button>
+            <button onclick="convertUpper()">Uppercase</button>
+            <button onclick="convertLower()">Lowercase</button>
+        </div>
+
+        <h3>Cleaned Result:</h3>
+        <p id="result">Your result will appear here.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
