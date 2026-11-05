@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Content Updater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Profile Updater</h1>
+
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="text" id="course" placeholder="Enter your course">
+        <textarea id="about" placeholder="Write about yourself"></textarea>
+
+        <button onclick="updateProfile()">Update Profile</button>
+
+        <div class="profile">
+            <h2>My Profile</h2>
+            <p id="profileName">Name: Not updated</p>
+            <p id="profileCourse">Course: Not updated</p>
+            <p id="profileAbout">About: Not updated</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
