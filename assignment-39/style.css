@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e293b;
+}
+
+.profile-card {
+    background: #e2e8f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}
+
+.inactive {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight {
+    border: 2px solid #2563eb;
+    background: #dbeafe;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+}

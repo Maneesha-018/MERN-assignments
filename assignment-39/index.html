@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interactive Profile</h1>
+
+        <div class="profile-card" id="profileCard">
+            <h2>Maneesha</h2>
+            <p>BCA with AI Specialization</p>
+            <p>Learning HTML, CSS and JavaScript.</p>
+
+            <span id="status" class="inactive">Inactive</span>
+        </div>
+
+        <div class="buttons">
+            <button id="activeBtn" aria-pressed="false">
+                Activate Profile
+            </button>
+
+            <button id="highlightBtn" aria-pressed="false">
+                Highlight Profile
+            </button>
+        </div>
+
+        <p id="message" aria-live="polite">
+            Profile is currently inactive.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
