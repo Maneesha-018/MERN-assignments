@@ -22,6 +22,9 @@ To create an interactive profile page using HTML, CSS and JavaScript.
 - DOM Manipulation
 - Accessibility attributes
 
+
+
+
 ## Conclusion
 This project helped me understand JavaScript events,
-CSS classes and accessible interactive elements.
+CSS classes and accessible interactive elements
